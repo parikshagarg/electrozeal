@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 2%;
+}
+
+.logo {
+    width: 100%;
+    /* background-color: black; */
+    background-image: url(https://media3.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif?cid=ecf05e47c3k3m128pzyppezyjf754q39rvohsu1hy4sy02g3&rid=giphy.gif);
+    text-align: center;
+    font-style: bold;
+    color: aliceblue;
+    padding: 5% 2% 10% 2%;
+}
+
+.navbar-link {
+    position: relative;
+    left: 68%;
+    color: beige;
+    font-size: large;
+}
+
+.animation {
+    padding: 10% 3% 10% 1%;
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+
+.animation ul {
+    display: flex;
+}
+
+.animation ul li {
+    list-style: none;
+    padding-left: 2%;
+    font-size: 5em;
+    animation: light 2.9s linear infinite;
+}
+
+@keyframes light {
+    0% {
+        color: aliceblue;
+        text-shadow: none;
+    }
+    90% {
+        color: aliceblue;
+        text-shadow: none;
+    }
+    100% {
+        color: blue;
+        text-shadow: 0 0 1rem white, 0 0 20rem white;
+    }
+}
+
+.animation ul li:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.animation ul li:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.animation ul li:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+.animation ul li:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.animation ul li:nth-child(5) {
+    animation-delay: 1.1s;
+}
+
+.animation ul li:nth-child(6) {
+    animation-delay: 1.4s;
+}
+
+.animation ul li:nth-child(7) {
+    animation-delay: 1.7s;
+}
+
+.animation ul li:nth-child(8) {
+    animation-delay: 2s;
+}
+
+.animation ul li:nth-child(9) {
+    animation-delay: 2.3s;
+}
+
+.animation ul li:nth-child(10) {
+    animation-delay: 2.6s;
+}
+
+.animation ul li:nth-child(11) {
+    animation-delay: 2.9s;
+}
+
+.heading {
+    font-size: 562.5%;
+    padding: 15% 2% 15% 2%;
+}
+
+.links {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.slides {}
+
+.comp-links {
+    padding: 5% 5%;
+    display: inline-flex;
+}
+
+.card {
+    padding: 0% 2%;
+    text-align: center;
+}
+
+.reg-button:hover {
+    color: white;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    padding: 5% 10% 30%;
+}
+
+#footer {
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.social-sites {
+    padding: 5% 3%;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.instagram:hover {
+    color: #E1306C;
+}
+
+.discord:hover {
+    color: #738ADB;
+}
